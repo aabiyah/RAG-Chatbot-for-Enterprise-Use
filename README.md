@@ -1,13 +1,18 @@
-# Knowledge Assistant for Tucows Domains Support Team
+# RAG Knowledge Assistant (Chatbot)
 
 ## Overview
-This repository contains a Knowledge Assistant designed to help the Tucows Domains Support Team quickly find answers to common questions and issues related to domain management. The assistant leverages a comprehensive knowledge base and advanced search capabilities to provide accurate and timely responses.
-With the help of a RAG (Retrieval-Augmented Generation) architecture, the assistant can retrieve relevant information from the knowledge base and generate coherent answers to user queries.
+This repository contains a Knowledge Assistant designed to help support teams quickly find answers to common questions and operational issues. The assistant uses Retrieval-Augmented Generation (RAG) to retrieve relevant information from a knowledge base and generate accurate, contextual responses to user queries.
+
+By combining vector search with a lightweight LLM, the system provides reliable, structured answers suitable for real-world support workflows.
+
+---
 
 ## Problem Statement
-You will build a Knowledge Assistant that can analyze customer support queries and return structured, relevant, and helpful responses. The assistant should use a Retrieval-Augmented Generation (RAG) pipeline powered by an LLM and follow the Model Context Protocol (MCP) to produce structured output.
+Build a Knowledge Assistant capable of analyzing support queries and returning structured, helpful, and verifiable responses.  
+The system follows a RAG pipeline powered by an LLM and produces output in a strict JSON format.
 
 ### Sample Input (Support Ticket)
+
 ```
 My domain was suspended and I didn’t get any notice. How can I reactivate it?
 ```
@@ -57,8 +62,8 @@ My domain was suspended and I didn’t get any notice. How can I reactivate it?
 ## Getting Started
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/aabiyah/aabiyah-interview-exercise-ai-tucows.git
-cd aabiyah-interview-exercise-ai-tucows
+git clone <link>
+cd RAG-Chatbot-for-Enterprise-Use
 ```
 
 2. **Create and activate a virtual environment:**
@@ -136,5 +141,4 @@ Overall, the lesson learned was to prioritize controllability and stability of t
 ## Author
 **Aabiyah Zehra**  
 Master of Applied Computing @ Wilfrid Laurier University  
-AI Engineer Candidate @ Tucows Inc.
 [GitHub](https://github.com/aabiyah) | [LinkedIn](https://www.linkedin.com/in/aabiyah-zehra-526528202)
